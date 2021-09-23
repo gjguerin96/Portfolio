@@ -34,11 +34,24 @@ body {
     background-color: rgb(94, 94, 94);
 }
 
-#about-me {
+main{
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pgSection {
     display: flex;
     justify-content: space-between; 
     margin: 40px 20px;
     color: white;
+    /* align-items: stretch;
+    padding: 5px;
+    flex-wrap: wrap; */
+}
+
+.pgSection div{
+    display: flex;
+    flex-direction: row;
 }
 
 #about-me p {
@@ -64,42 +77,49 @@ h2 {
     padding: 20px;
     border-right: 2px solid white;
     width: 12%;
+    text-align: right;
+    line-height: 1;
 }
 
-#my-projects {
-    display: flex;
-    justify-content: space-between; 
-    margin: 40px 20px;
-    color: white;
-}
 
 .projects {
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: center;
+   
     flex-wrap: wrap;
-}
-
-#featured-card {
-    flex: 0 0 80%;
-    border: 5px solid purple;
-    background-image: url("https://www.androidfreeware.net/img2/com-pirinel-chess.jpg");
-    margin: 30px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
 .card {
     display: flex;
-    flex-direction: column;
     flex: 0 0 30%;
-    height: 300px;
-    justify-content: flex-end;
+    min-height: 300px;
+    max-height:300px;
+    align-items: flex-end;
+    border: 5px solid purple;
+    margin: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.featured-card {
+    flex: 0 0 80%;
     border: 5px solid purple;
     background-image: url("https://www.androidfreeware.net/img2/com-pirinel-chess.jpg");
     margin: 30px;
+    min-height: 600px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end;
+}
+
+.imageTwo {
+    background-image: url("https://www.androidfreeware.net/img2/com-pirinel-chess.jpg")
+}
+
+.project-title {
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    padding: 10px;
 }
 
 #featured-card:hover,
@@ -107,12 +127,7 @@ h2 {
     border: 5px solid yellow;
 }
 
-#contact-me {
-    display: flex;
-    justify-content: space-between; 
-    margin: 40px 20px;
-    color: white;
-}
+
 
 #contact-me ul {
     display: flex;
@@ -133,11 +148,11 @@ h4 {
     font-size: .75rem;
 }
 
+@media screen and (min-width: 992px) {
+   
+ }
+
 @media screen and (min-width: 768px) {
 
   }
   
- 
-@media screen and (min-width: 992px) {
-    
-  }
