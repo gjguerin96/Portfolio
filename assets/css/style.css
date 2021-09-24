@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -6,6 +6,7 @@ h1 {
     font-size: 2.5rem;
     color: white;
     margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header{
@@ -30,28 +31,30 @@ a {
     font-size: 1.5rem;
 }
 
+li a:hover{
+    color: lightskyblue;
+}
+
 body {
     background-color: rgb(94, 94, 94);
 }
 
-main{
-    max-width: 88%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.pgSection {
+.page-section {
     display: flex;
     justify-content: space-between; 
     margin: 40px 20px;
     color: white;
-    /* align-items: stretch;
-    padding: 5px;
-    flex-wrap: wrap; */
 }
 
-.pgSection div{
-    display: flex;
-    flex-direction: row;
+h2 {
+    font-size: 2rem;
+    margin: 30px;
+    color: white;
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    border-right: 2px solid white;
+    width: 12%;
 }
 
 #about-me p {
@@ -68,52 +71,23 @@ main{
     margin: 40px 20px;
 }
 
-h2 {
-    font-size: 2rem;
-    margin: 30px;
-    color: white;
-    position: relative;
-    left: 30px;
-    padding: 20px;
-    border-right: 2px solid white;
-    width: 12%;
-    text-align: right;
-    line-height: 1;
-}
-
-
 .projects {
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-around;
     flex-wrap: wrap;
+    flex: 0 0 80%;
 }
 
 .card {
     display: flex;
+    flex-direction: column;
     flex: 0 0 30%;
-    min-height: 300px;
-    max-height:300px;
-    align-items: flex-end;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: flex-start;
     border: 5px solid purple;
-    margin: 30px;
-    text-decoration: none;
+    margin: 30px; 
     padding: 10px;
-}
-
-.featured-card {
-    flex: 0 0 80%;
-    border: 5px solid purple;
-    background-image: url("https://www.androidfreeware.net/img2/com-pirinel-chess.jpg");
-    margin: 30px;
-    min-height: 600px;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: flex-end;
-}
-
-.imageTwo {
-    background-image: url("https://www.androidfreeware.net/img2/com-pirinel-chess.jpg")
 }
 
 .project-title {
@@ -122,12 +96,32 @@ h2 {
     padding: 10px;
 }
 
-#featured-card:hover,
-.card:hover {
-    border: 5px solid yellow;
+#featured-card {
+    flex: 0 0 70%;
+    background-image: url("https://albertawilderness.ca/wp-content/uploads/2018/08/20060807_Tom-Olson-Ranch-Waterton_colson-3-1100x500.jpg");
+    height: 400px;
 }
 
+#image-two {
+    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+}
 
+#image-three {
+    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+}
+
+#image-four {
+    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+}
+
+#image-five {
+    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 8px lightskyblue, 0 0 8px lightskyblue;
+    color: lightskyblue;
+}
 
 #contact-me ul {
     display: flex;
@@ -148,11 +142,12 @@ h4 {
     font-size: .75rem;
 }
 
-@media screen and (min-width: 992px) {
-   
- }
-
 @media screen and (min-width: 768px) {
 
+  }
+  
+ 
+@media screen and (min-width: 992px) {
+    
   }
   
