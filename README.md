@@ -9,7 +9,7 @@ In the process of building it, I learned a lot about flexboxes and CSS in genera
 ## Usage
 There are several links on this page. The three links on the upper right corner of the page in the navbar (see screenshot) each go to one of the main sections of the page to make navigation easier. In the middle section, My Projects, there are five cards that will each link to a deployed project once I have some. For now, they are placeholder links that go nowhere. In the Contact Me section, there are three links that each go to a different way I can be contacted.
 
-    ![A screenshot showing the navbar in the upper right corner of my website.](assets/images/portfolio-screenshot.png)
+![A screenshot showing the navbar in the upper right corner of my website.](assets/images/portfolio-screenshot.png)
 
 ## Credits
 I recieved some assistance and advice from my classmates and from my tutor, Vinnie Lopez.
