@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* styles my name */
 h1 {
     font-size: 2.5rem;
     color: white;
@@ -16,15 +17,17 @@ header{
     padding: 20px;
 }
 
+/* styles the navigation bar */
 nav {
     margin: 40px 20px;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 15px;
 }
 
+/* styles the links in the header and the contact me section */
 a {
     text-decoration: none;
     color: white;
@@ -39,6 +42,7 @@ body {
     background-color: rgb(94, 94, 94);
 }
 
+/* styling for the three sections of the body */
 .page-section {
     display: flex;
     justify-content: space-between; 
@@ -57,6 +61,7 @@ h2 {
     width: 12%;
 }
 
+/* styling specific to the about me section */
 #about-me p {
     margin: 40px 20px;
     font-size: 1.2rem;
@@ -71,6 +76,7 @@ h2 {
     margin: 40px 20px;
 }
 
+/* styling specific to the my projects section */
 .projects {
     display: flex;
     justify-content: space-around;
@@ -90,39 +96,42 @@ h2 {
     padding: 10px;
 }
 
+.card:hover {
+    box-shadow: inset 0px 0px 8px lightskyblue, 0 0 8px lightskyblue;
+    color: lightskyblue;
+}
+
 .project-title {
     font-size: 1.5rem;
     background-color: blueviolet;
     padding: 10px;
 }
 
+/* makes the first card larger than the rest */
 #featured-card {
     flex: 0 0 70%;
-    background-image: url("https://albertawilderness.ca/wp-content/uploads/2018/08/20060807_Tom-Olson-Ranch-Waterton_colson-3-1100x500.jpg");
+    background-image: url("../images/project-1.jpg");
     height: 400px;
 }
 
+/* image links for the rest of the projects*/
 #image-two {
-    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+    background-image: url("../images/project-2.jpg");   
 }
 
 #image-three {
-    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+    background-image: url("../images/project-3.jpeg");   
 }
 
 #image-four {
-    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+    background-image: url("../images/project-4.jpg");   
 }
 
 #image-five {
-    background-image: url("https://i.redd.it/rskmzs17zzx31.jpg");   
+    background-image: url("../images/project-5.jpg");   
 }
 
-.card:hover {
-    box-shadow: inset 0px 0px 8px lightskyblue, 0 0 8px lightskyblue;
-    color: lightskyblue;
-}
-
+/* styling specific to the contact me section */
 #contact-me ul {
     display: flex;
     justify-content: space-around;
@@ -130,6 +139,7 @@ h2 {
     width: 80%
 }
 
+/* styles the footer */
 footer {
     background-color: purple;
     display: flex;
@@ -142,12 +152,20 @@ h4 {
     font-size: .75rem;
 }
 
-@media screen and (min-width: 768px) {
+/* allows the design to respond to changing page size */
+@media screen and (max-device-width: 768px) { 
+    .page-section{
+        flex-direction: column;
+        align-items: center;
+    }
 
-  }
-  
- 
-@media screen and (min-width: 992px) {
-    
+    #about-me p{
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        border-bottom: 2px solid white;
+        border-right: 0px;
+    }
   }
   
