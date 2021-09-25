@@ -7,7 +7,7 @@ This is a portfolio that I can use to advertise my services to potential employe
 In the process of building it, I learned a lot about flexboxes and CSS in general. CSS is very powerful, and you can accomplish much with it if you know how to use it. Building this site taught me a lot about how to use CSS.
 
 ## Usage
-There are several links on this page. The three links on the upper right corner of the page in the navbar (see screenshot) each go to one of the main sections of the page to make navigation easier. In the middle section, My Projects, there are five cards that will each link to a deployed project once I have some. For now, they are placeholder links that go nowhere. In the Contact Me section, there are three links that each go to a different way I can be contacted.
+There are several links on this page. The three links on the upper right corner of the page in the navbar (see screenshot) each go to one of the main sections of the page to make navigation easier. In the middle section, My Projects, there are five cards that will each link to a deployed project once I have some. Each card has an image that will also be updated as I link to my deployed projects. For now, they are placeholder links that go nowhere. In the Contact Me section, there are three links that each go to a different way I can be contacted.
 
 ![A screenshot showing the navbar in the upper right corner of my website.](assets/images/portfolio-screenshot.png)
 
