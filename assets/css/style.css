@@ -101,6 +101,14 @@ h2 {
     color: lightskyblue;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
+.github-repo {
+    color: black;
+}
+
 .project-title {
     font-size: 1.5rem;
     background-color: blueviolet;
@@ -110,25 +118,25 @@ h2 {
 /* makes the first card larger than the rest */
 #featured-card {
     flex: 0 0 70%;
-    background-image: url("../images/project-1.jpg");
+    background-image: url("../images/musician-finder-screenshot.png");
     height: 400px;
 }
 
 /* image links for the rest of the projects*/
 #image-two {
-    background-image: url("../images/project-2.jpg");   
+    background-image: url("../images/weather-dashboard-screenshot.png");   
 }
 
 #image-three {
-    background-image: url("../images/project-3.jpeg");   
+    background-image: url("../images/scheduler-screenshot.png");   
 }
 
 #image-four {
-    background-image: url("../images/project-4.jpg");   
+    background-image: url("../images/code-quiz-screenshot.png");   
 }
 
 #image-five {
-    background-image: url("../images/project-5.jpg");   
+    background-image: url("../images/pass-gen-screenshot.png");   
 }
 
 /* styling specific to the contact me section */
