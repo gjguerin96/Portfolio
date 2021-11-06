@@ -34,7 +34,7 @@ a {
     font-size: 1.5rem;
 }
 
-li a:hover{
+a:hover{
     color: lightskyblue;
 }
 
@@ -168,7 +168,7 @@ h4 {
     }
 
     #about-me p{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     h2 {
