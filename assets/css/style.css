@@ -117,18 +117,18 @@ h3 {
 
 /* makes the first card larger than the rest */
 #featured-card {
-    flex: 0 0 70%;
-    background-image: url("../images/musician-finder-screenshot.png");
+    flex: 0 0 67%;
+    background-image: url("../images/geekseek-screenshot.png");
     height: 400px;
 }
 
 /* image links for the rest of the projects*/
 #image-two {
-    background-image: url("../images/weather-dashboard-screenshot.png");   
+    background-image: url("../images/employee-tracker-screenshot.png");   
 }
 
 #image-three {
-    background-image: url("../images/scheduler-screenshot.png");   
+    background-image: url("../images/musician-finder-screenshot.png");   
 }
 
 #image-four {
