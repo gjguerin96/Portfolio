@@ -14,27 +14,46 @@
         <!-- creates the nav bar -->
         <nav>
             <ul>
-                <li> <a href="#about-me">About Me</a>
-                <li> <a href="#my-projects">My Projects</a>
-                <li> <a href="#contact-me">Contact Me</a>
+                <li> <a class="links" href="#about-me">About Me</a>
+                <li> <a class="links" href="#skills">My Skills</a>
+                <li> <a class="links" href="#my-projects">My Projects</a>
+                <li> <a class="links" href="#contact-me">Contact Me</a>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- the body is split into three sections -->
-        <section id=about-me class="page-section">
+        <section id="about-me" class="page-section">
             <h2>About Me</h2>
             <p>
                 I graduated from UC Davis in 2018 with a Bachelor's Degree in Political Science. After graduating, I moved back to my hometown San Diego.
-                I work part-time as a social media manager for a small company. I am currently enrolled in a web development bootcamp with the UC San Diego extension.
-                Once I complete the program I hope to work with nonprofits, using my skills to help worthwhile organizations build an online presence.
-                In my free time I enjoy listening to music, playing chess, playing tennis, and cooking. 
+                I work part-time as a social media manager for a small company. I recently completed a six month full stack web development bootcamp from the UC San Diego extension.
+                I hope to work with other small companies and nonprofits, using my skills to help worthwhile organizations build an online presence.
+                In my free time I enjoy listening to music, playing chess, playing tennis, and cooking. If you have any questions for me, please do not hesitate to reach out.
                 <br>
                 <br>
-                <a href="assets/images/GabrielGuerinResume.pdf" target="_blank" download="GuerinResume">View my resume.</a>
+                <a class="links" href="assets/images/GabrielGuerinResume.pdf" target="_blank" download="GuerinResume">View my resume.</a>
             </p>
-            <img src="./assets/images/gjg-pic.jpeg" alt="A picture of me."/>
+            <img src="./assets/images/gjg-pic.jpg" alt="A picture of me."/>
+        </section>
+
+        <section id="skills" class="page-section">
+            <h2>My Skills</h2>
+            <div id="skills-div">
+                <ul class="skills-list">
+                    <li>HTML, CSS</li>
+                    <li>MongoDB, Mongoose</li>
+                    <li>GraphQL</li>
+                    <li>GitHub</li>
+                </ul>
+                <ul class="skills-list">
+                    <li>JavaScript, NodeJS</li>
+                    <li>React</li>
+                    <li>Bootstrap, TailwindCSS</li>
+                    <li>Webflow</li>
+                </ul>
+            </div>
         </section>
 
         <section id=my-projects class="page-section">
@@ -42,31 +61,34 @@
             <div class="projects">
                 <!-- placeholder links and text are used in place of actual deployed projects -->
                 <!-- each card contains an image that is linked in the CSS -->
-                <a href="https://github.com/JMYoung93/GeekSeek" class="card" id="featured-card" target="_blank">
+                <a href="https://github.com/JMYoung93/GeekSeek" class="card links" id="featured-card" target="_blank">
                     <div class="project-title">
                         <h3>GeekSeek</h3>
                         <p>Find your geek match</p>
                     </div>
                 </a>
-                <a href="https://github.com/gjguerin96/Employee-Tracker" class="card" id="image-two" target="_blank">   
+                <!-- <a class="github" href="https://github.com/JMYoung93/GeekSeek">GitHub</a> -->
+                <a href="https://github.com/gjguerin96/Employee-Tracker" class="card links" id="image-two" target="_blank">   
                     <div class="project-title">
                         <h3>Employee-Tracker</h3>
                         <p>Make an employee database</p>
+                        <!-- <a class="github" href="https://github.com/JMYoung93/GeekSeek">GitHub</a> -->
+
                     </div>
                 </a>
-                <a href="https://reginaldcapanzana.github.io/musician-finder/" class="card" id="image-three" target="_blank">   
+                <a href="https://reginaldcapanzana.github.io/musician-finder/" class="card links" id="image-three" target="_blank">   
                     <div class="project-title">
                         <h3>Musician Finder</h3>
                         <p>Find info on your favorite bands</p>
                     </div>
                 </a>
-                <a href="https://gjguerin96.github.io/Code-Quiz/" class="card" id="image-four" target="_blank">
+                <a href="https://gjguerin96.github.io/Code-Quiz/" class="card links" id="image-four" target="_blank">
                     <div class="project-title">
                         <h3>Code Quiz</h3>
                         <p>Test your coding knowledge</p>
                     </div>
                 </a>
-                <a href="https://gjguerin96.github.io/Password-Generator/" class="card" id="image-five" target="_blank">
+                <a href="https://gjguerin96.github.io/Password-Generator/" class="card links" id="image-five" target="_blank">
                     <div class="project-title">
                         <h3>Password Generator</h3>
                         <p>Get a new password</p>
@@ -79,9 +101,9 @@
             <!-- links to contact me -->
             <h2>Contact Me</h2>
             <ul>
-                <li> <a href="mailto:gjguerin96@gmail.com">Email</a>
-                <li> <a href="https://github.com/gjguerin96" target="_blank">Github</a>
-                <li> <a href="https://www.linkedin.com/in/gabriel-guerin-031674166/" target="_blank">LinkedIn</a>
+                <li> <a class="links" href="mailto:gjguerin96@gmail.com">Email</a>
+                <li> <a class="links" href="https://github.com/gjguerin96" target="_blank">Github</a>
+                <li> <a class="links" href="https://www.linkedin.com/in/gabriel-guerin-031674166/" target="_blank">LinkedIn</a>
             </ul>
         </section>
 

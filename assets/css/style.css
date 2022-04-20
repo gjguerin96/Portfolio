@@ -28,13 +28,13 @@ nav ul li {
 }
 
 /* styles the links in the header and the contact me section */
-a {
+.links {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
 }
 
-a:hover{
+.links:hover{
     color: lightskyblue;
 }
 
@@ -71,9 +71,27 @@ h2 {
 
 #about-me img {
     width: 15%;
-    height: 15%;
+    height: 20%;
     border: 5px solid purple;
     margin: 40px 20px;
+}
+
+#skills-div{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: space-around;
+    flex: 0 0 80%;
+    /* border: 5px solid red; */
+}
+
+.skills-list li{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 40px 20px;
+    font-size: 1.4rem;
+    /* border: 5px solid green; */
 }
 
 /* styling specific to the my projects section */
@@ -105,7 +123,7 @@ h3 {
     font-size: 2rem;
 }
 
-.github-repo {
+.github {
     color: black;
 }
 
