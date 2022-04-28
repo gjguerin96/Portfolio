@@ -116,7 +116,7 @@ h2 {
 
 .card:hover {
     box-shadow: inset 0px 0px 8px lightskyblue, 0 0 8px lightskyblue;
-    color: lightskyblue;
+    /* color: lightskyblue; */
 }
 
 h3 {
@@ -154,7 +154,7 @@ h3 {
 }
 
 #image-five {
-    background-image: url("../images/pass-gen-screenshot.png");   
+    background-image: url("../images/social-network-screenshot.png");   
 }
 
 /* styling specific to the contact me section */
