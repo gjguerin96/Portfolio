@@ -123,6 +123,11 @@ h3 {
     font-size: 2rem;
 }
 
+.tech-text{
+    font-size: 1rem;
+    margin: 5px 0 0;
+}
+
 .github {
     color: black;
 }
@@ -131,6 +136,9 @@ h3 {
     font-size: 1.5rem;
     background-color: blueviolet;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* makes the first card larger than the rest */
